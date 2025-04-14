@@ -1,17 +1,20 @@
 import requests
 
-API_KEY = "RGAPI-2b2cb7ea-8791-420e-b4da-ebe4ccb12494"
+API_KEY = "RGAPI-7cf0ab17-4e99-4afa-989d-4bcfa7ab04fc"
 
 GAME_NAME = "MiguelGG ツ"
 TAG_LINE = "GANG"
-REGION = "europe" 
+
+ACCOUNT_REGION = "europe"  
+VALORANT_REGION = "eu"    
+
 
 HEADERS = {
     "X-Riot-Token": API_KEY
 }
 
 def get_puuid(game_name, tag_line):
-    url = f"https://{REGION}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{game_name}/{tag_line}"
+    url = f"https://{ACCOUNT_REGION}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{game_name}/{tag_line}"
     res = requests.get(url, headers=HEADERS)
     if res.status_code == 200:
         return res.json()["puuid"]
@@ -20,7 +23,7 @@ def get_puuid(game_name, tag_line):
         return None
 
 def get_match_history(puuid):
-    url = f"https://{REGION}.api.riotgames.com/val/match/v1/matchlists/by-puuid/{puuid}"
+    url = f"https://{VALORANT_REGION}.api.riotgames.com/val/match/v1/matchlists/by-puuid/{puuid}"
     res = requests.get(url, headers=HEADERS)
     if res.status_code == 200:
         return res.json()["history"]
@@ -29,7 +32,7 @@ def get_match_history(puuid):
         return []
 
 def get_match_details(match_id):
-    url = f"https://{REGION}.api.riotgames.com/val/match/v1/matches/{match_id}"
+    url = f"https://{VALORANT_REGION}.api.riotgames.com/val/match/v1/matches/{match_id}"
     res = requests.get(url, headers=HEADERS)
     if res.status_code == 200:
         return res.json()
