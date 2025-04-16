@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import mockData from '../data/mockData.json';
+import data from '../data/instants.json';
 
 const mapImages = import.meta.glob('../assets/maps/*.png', { eager: true });
 
@@ -16,7 +16,11 @@ export default function MapViewer({ mapName }) {
   const [displaySize, setDisplaySize] = useState({ width: 1, height: 1 });
   const [naturalSize, setNaturalSize] = useState({ width: 1, height: 1 });
 
-  // Obtener tamaño real de la imagen
+  const instants = data.instants;
+  const currentTick = instants[tick] || { roundTime: 0, players: [] };
+  const players = currentTick.players;
+
+  // Tamaño real de la imagen
   useEffect(() => {
     const img = new Image();
     img.src = imgSrc;
@@ -42,14 +46,12 @@ export default function MapViewer({ mapName }) {
   const scaleX = displaySize.width / naturalSize.width;
   const scaleY = displaySize.height / naturalSize.height;
 
-  const currentPlayers = mockData[tick]?.players || [];
-
   const handlePrev = () => {
     setTick((prev) => Math.max(prev - 1, 0));
   };
 
   const handleNext = () => {
-    setTick((prev) => Math.min(prev + 1, mockData.length - 1));
+    setTick((prev) => Math.min(prev + 1, instants.length - 1));
   };
 
   return (
@@ -64,25 +66,36 @@ export default function MapViewer({ mapName }) {
       )}
 
       {/* Jugadores */}
-      {currentPlayers.map((player) => {
+      {players.map((player) => {
+        const x = player.location?.x || 0;
+        const y = player.location?.y || 0;
+        const radians = player.viewRadians ?? 0;
         return (
           <div
-            key={player.id}
+            key={player.puuid}
             style={{
               position: 'absolute',
-              left: `${player.x * scaleX}px`,
-              top: `${player.y * scaleY}px`,
-              width: '12px',
-              height: '12px',
-              backgroundColor: player.team === 'blue' ? 'blue' : 'red',
+              left: `${x * scaleX}px`,
+              top: `${y * scaleY}px`,
+              width: '14px',
+              height: '14px',
+              backgroundColor: 'orange',
               borderRadius: '50%',
               border: '2px solid white',
+              transform: `rotate(${radians}rad)`,
               zIndex: 50,
             }}
-            title={`${player.id} | ${player.weapon} | HP: ${player.hp}`}
+            title={player.puuid}
           />
         );
       })}
+
+      {/* Evento */}
+      {currentTick.event && (
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-yellow-200 text-black px-4 py-1 rounded z-50 shadow">
+          <strong>Evento:</strong> {currentTick.event.type.toUpperCase()}
+        </div>
+      )}
 
       {/* Controles */}
       <div className="absolute bottom-4 left-4 bg-black/70 text-white px-4 py-2 rounded z-50 flex gap-4 items-center">
@@ -92,7 +105,9 @@ export default function MapViewer({ mapName }) {
         >
           ⬅
         </button>
-        <span>Tick: {tick + 1} / {mockData.length}</span>
+        <span>
+          Tick {tick + 1} / {instants.length} | Tiempo: {currentTick.roundTime}s
+        </span>
         <button
           onClick={handleNext}
           className="bg-gray-700 px-3 py-1 rounded hover:bg-gray-600"

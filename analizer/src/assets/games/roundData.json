@@ -1,0 +1,740 @@
+{
+    "roundNum": 1,
+    "roundResult": "Eliminated",
+    "roundCeremony": "CeremonyDefault",
+    "winningTeam": "Blue",
+    "bombPlanter": null,
+    "bombDefuser": null,
+    "plantRoundTime": 0,
+    "plantPlayerLocations": null,
+    "plantLocation": {
+        "x": 0,
+        "y": 0
+    },
+    "plantSite": "",
+    "defuseRoundTime": 0,
+    "defusePlayerLocations": null,
+    "defuseLocation": {
+        "x": 0,
+        "y": 0
+    },
+    "playerStats": [
+        {
+            "puuid": "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA",
+            "kills": [],
+            "damage": [],
+            "score": 0,
+            "economy": {
+                "loadoutValue": 2100,
+                "weapon": "1BAA85B4-4C70-1284-64BB-6481DFC3BB4E",
+                "armor": "822BCAB2-40A2-324E-C137-E09195AD7692",
+                "remaining": 1400,
+                "spent": 1600
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+            "kills": [],
+            "damage": [],
+            "score": 0,
+            "economy": {
+                "loadoutValue": 1900,
+                "weapon": "C4883E50-4494-202C-3EC3-6B8A9284F00B",
+                "armor": "4DEC83D5-4902-9AB3-BED6-A7A390761157",
+                "remaining": 700,
+                "spent": 1500
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+            "kills": [
+                {
+                    "gameTime": 190508,
+                    "roundTime": 56249,
+                    "killer": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+                    "victim": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+                    "victimLocation": {
+                        "x": -1391,
+                        "y": -1618
+                    },
+                    "assistants": [],
+                    "playerLocations": [
+                        {
+                            "puuid": "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA",
+                            "viewRadians": 0.34562492,
+                            "location": {
+                                "x": 3599,
+                                "y": -6197
+                            }
+                        },
+                        {
+                            "puuid": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+                            "viewRadians": 1.5977368,
+                            "location": {
+                                "x": -1326,
+                                "y": -3645
+                            }
+                        },
+                        {
+                            "puuid": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                            "viewRadians": 1.9107407,
+                            "location": {
+                                "x": 1667,
+                                "y": -4499
+                            }
+                        },
+                        {
+                            "puuid": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                            "viewRadians": 3.4781096,
+                            "location": {
+                                "x": 844,
+                                "y": -2272
+                            }
+                        }
+                    ],
+                    "finishingDamage": {
+                        "damageType": "Weapon",
+                        "damageItem": "55D8A0F4-4274-CA67-FE2C-06AB45EFDF58",
+                        "isSecondaryFireMode": true
+                    }
+                }
+            ],
+            "damage": [
+                {
+                    "receiver": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+                    "damage": 192,
+                    "legshots": 0,
+                    "bodyshots": 4,
+                    "headshots": 1
+                }
+            ],
+            "score": 195,
+            "economy": {
+                "loadoutValue": 3300,
+                "weapon": "55D8A0F4-4274-CA67-FE2C-06AB45EFDF58",
+                "armor": "822BCAB2-40A2-324E-C137-E09195AD7692",
+                "remaining": 100,
+                "spent": 3100
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "ZWZzoJVQfkjCHbOLn365kzb6FNNnCfshoiwgo-lN3DU5pRM1wOPuEMjeQsf3SQONb1-LvxtVnGBleQ",
+            "kills": [],
+            "damage": [
+                {
+                    "receiver": "lYznxzi0uZfchn1V9w3eXVyY5epEv09xhtv2L70updmSkuDT9v3WA9_4C77kUa57JVTpymgOYK___A",
+                    "damage": 30,
+                    "legshots": 0,
+                    "bodyshots": 1,
+                    "headshots": 0
+                },
+                {
+                    "receiver": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                    "damage": 30,
+                    "legshots": 0,
+                    "bodyshots": 1,
+                    "headshots": 0
+                }
+            ],
+            "score": 60,
+            "economy": {
+                "loadoutValue": 1100,
+                "weapon": "1BAA85B4-4C70-1284-64BB-6481DFC3BB4E",
+                "armor": "",
+                "remaining": 1500,
+                "spent": 700
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+            "kills": [
+                {
+                    "gameTime": 163854,
+                    "roundTime": 29595,
+                    "killer": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                    "victim": "8y8sI-uMwfGQol7AxxKd2NODLhtmVcuUTxxWMW5W0ypbY2MG1AtfZgm-JjkUWDiVLpUSiIqcFbrMhw",
+                    "victimLocation": {
+                        "x": 918,
+                        "y": -2047
+                    },
+                    "assistants": [
+                        "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA"
+                    ],
+                    "playerLocations": [
+                        {
+                            "puuid": "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA",
+                            "viewRadians": 1.6650969,
+                            "location": {
+                                "x": 2315,
+                                "y": -5696
+                            }
+                        },
+                        {
+                            "puuid": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+                            "viewRadians": 4.23465,
+                            "location": {
+                                "x": -2367,
+                                "y": -4035
+                            }
+                        },
+                        {
+                            "puuid": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+                            "viewRadians": 3.1097624,
+                            "location": {
+                                "x": -588,
+                                "y": -5245
+                            }
+                        },
+                        {
+                            "puuid": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                            "viewRadians": 2.105485,
+                            "location": {
+                                "x": 2442,
+                                "y": -4654
+                            }
+                        },
+                        {
+                            "puuid": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                            "viewRadians": 4.4758058,
+                            "location": {
+                                "x": 2434,
+                                "y": -2746
+                            }
+                        },
+                        {
+                            "puuid": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                            "viewRadians": 1.2261299,
+                            "location": {
+                                "x": 1546,
+                                "y": -4791
+                            }
+                        }
+                    ],
+                    "finishingDamage": {
+                        "damageType": "Weapon",
+                        "damageItem": "AE3DE142-4D85-2547-DD26-4E90BED35CF7",
+                        "isSecondaryFireMode": false
+                    }
+                },
+                {
+                    "gameTime": 173412,
+                    "roundTime": 39153,
+                    "killer": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                    "victim": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                    "victimLocation": {
+                        "x": 2962,
+                        "y": -2986
+                    },
+                    "assistants": [
+                        "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                        "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA"
+                    ],
+                    "playerLocations": [
+                        {
+                            "puuid": "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA",
+                            "viewRadians": 0.02444782,
+                            "location": {
+                                "x": 2952,
+                                "y": -5381
+                            }
+                        },
+                        {
+                            "puuid": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+                            "viewRadians": 0.28436255,
+                            "location": {
+                                "x": -2216,
+                                "y": -3811
+                            }
+                        },
+                        {
+                            "puuid": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+                            "viewRadians": 3.042552,
+                            "location": {
+                                "x": -619,
+                                "y": -5335
+                            }
+                        },
+                        {
+                            "puuid": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                            "viewRadians": 0.32865557,
+                            "location": {
+                                "x": 2181,
+                                "y": -3246
+                            }
+                        },
+                        {
+                            "puuid": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                            "viewRadians": 1.5799581,
+                            "location": {
+                                "x": 2294,
+                                "y": -4330
+                            }
+                        }
+                    ],
+                    "finishingDamage": {
+                        "damageType": "Weapon",
+                        "damageItem": "AE3DE142-4D85-2547-DD26-4E90BED35CF7",
+                        "isSecondaryFireMode": false
+                    }
+                }
+            ],
+            "damage": [
+                {
+                    "receiver": "KLFOItXyIr_jTtb7tm9zYfeD3zWroqfiffvjC3y8p3VsGucGlDLiqZQcdPOJYtDajXQXp7PUON49BA",
+                    "damage": 38,
+                    "legshots": 0,
+                    "bodyshots": 1,
+                    "headshots": 0
+                },
+                {
+                    "receiver": "8y8sI-uMwfGQol7AxxKd2NODLhtmVcuUTxxWMW5W0ypbY2MG1AtfZgm-JjkUWDiVLpUSiIqcFbrMhw",
+                    "damage": 155,
+                    "legshots": 0,
+                    "bodyshots": 2,
+                    "headshots": 1
+                },
+                {
+                    "receiver": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                    "damage": 70,
+                    "legshots": 0,
+                    "bodyshots": 2,
+                    "headshots": 0
+                }
+            ],
+            "score": 474,
+            "economy": {
+                "loadoutValue": 3700,
+                "weapon": "AE3DE142-4D85-2547-DD26-4E90BED35CF7",
+                "armor": "822BCAB2-40A2-324E-C137-E09195AD7692",
+                "remaining": 100,
+                "spent": 3700
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "8y8sI-uMwfGQol7AxxKd2NODLhtmVcuUTxxWMW5W0ypbY2MG1AtfZgm-JjkUWDiVLpUSiIqcFbrMhw",
+            "kills": [],
+            "damage": [
+                {
+                    "receiver": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                    "damage": 55,
+                    "legshots": 0,
+                    "bodyshots": 1,
+                    "headshots": 0
+                }
+            ],
+            "score": 55,
+            "economy": {
+                "loadoutValue": 2600,
+                "weapon": "E336C6B8-418D-9340-D77F-7A9E4CFE0702",
+                "armor": "822BCAB2-40A2-324E-C137-E09195AD7692",
+                "remaining": 0,
+                "spent": 2200
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "lYznxzi0uZfchn1V9w3eXVyY5epEv09xhtv2L70updmSkuDT9v3WA9_4C77kUa57JVTpymgOYK___A",
+            "kills": [],
+            "damage": [],
+            "score": 0,
+            "economy": {
+                "loadoutValue": 2500,
+                "weapon": "C4883E50-4494-202C-3EC3-6B8A9284F00B",
+                "armor": "4DEC83D5-4902-9AB3-BED6-A7A390761157",
+                "remaining": 1300,
+                "spent": 1800
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+            "kills": [
+                {
+                    "gameTime": 161874,
+                    "roundTime": 27615,
+                    "killer": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                    "victim": "lYznxzi0uZfchn1V9w3eXVyY5epEv09xhtv2L70updmSkuDT9v3WA9_4C77kUa57JVTpymgOYK___A",
+                    "victimLocation": {
+                        "x": 1642,
+                        "y": -5026
+                    },
+                    "assistants": [],
+                    "playerLocations": [
+                        {
+                            "puuid": "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA",
+                            "viewRadians": 1.9758618,
+                            "location": {
+                                "x": 2305,
+                                "y": -5232
+                            }
+                        },
+                        {
+                            "puuid": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+                            "viewRadians": 4.7637844,
+                            "location": {
+                                "x": -2548,
+                                "y": -3985
+                            }
+                        },
+                        {
+                            "puuid": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+                            "viewRadians": 3.1050644,
+                            "location": {
+                                "x": -637,
+                                "y": -5200
+                            }
+                        },
+                        {
+                            "puuid": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                            "viewRadians": 2.1235087,
+                            "location": {
+                                "x": 2521,
+                                "y": -4604
+                            }
+                        },
+                        {
+                            "puuid": "8y8sI-uMwfGQol7AxxKd2NODLhtmVcuUTxxWMW5W0ypbY2MG1AtfZgm-JjkUWDiVLpUSiIqcFbrMhw",
+                            "viewRadians": 5.495815,
+                            "location": {
+                                "x": 686,
+                                "y": -2115
+                            }
+                        },
+                        {
+                            "puuid": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                            "viewRadians": 4.442216,
+                            "location": {
+                                "x": 2331,
+                                "y": -2447
+                            }
+                        },
+                        {
+                            "puuid": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                            "viewRadians": 1.0851955,
+                            "location": {
+                                "x": 1292,
+                                "y": -4807
+                            }
+                        }
+                    ],
+                    "finishingDamage": {
+                        "damageType": "Weapon",
+                        "damageItem": "1BAA85B4-4C70-1284-64BB-6481DFC3BB4E",
+                        "isSecondaryFireMode": false
+                    }
+                }
+            ],
+            "damage": [
+                {
+                    "receiver": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                    "damage": 35,
+                    "legshots": 0,
+                    "bodyshots": 2,
+                    "headshots": 0
+                },
+                {
+                    "receiver": "lYznxzi0uZfchn1V9w3eXVyY5epEv09xhtv2L70updmSkuDT9v3WA9_4C77kUa57JVTpymgOYK___A",
+                    "damage": 105,
+                    "legshots": 0,
+                    "bodyshots": 0,
+                    "headshots": 1
+                },
+                {
+                    "receiver": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                    "damage": 13,
+                    "legshots": 0,
+                    "bodyshots": 1,
+                    "headshots": 0
+                }
+            ],
+            "score": 293,
+            "economy": {
+                "loadoutValue": 400,
+                "weapon": "29A0CFAB-485B-F5D5-779A-B59F85E204A8",
+                "armor": "",
+                "remaining": 2100,
+                "spent": 100
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+            "kills": [
+                {
+                    "gameTime": 149301,
+                    "roundTime": 15042,
+                    "killer": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                    "victim": "KLFOItXyIr_jTtb7tm9zYfeD3zWroqfiffvjC3y8p3VsGucGlDLiqZQcdPOJYtDajXQXp7PUON49BA",
+                    "victimLocation": {
+                        "x": 2244,
+                        "y": -2489
+                    },
+                    "assistants": [],
+                    "playerLocations": [
+                        {
+                            "puuid": "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA",
+                            "viewRadians": 1.9666581,
+                            "location": {
+                                "x": 3342,
+                                "y": -5808
+                            }
+                        },
+                        {
+                            "puuid": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+                            "viewRadians": 4.9214983,
+                            "location": {
+                                "x": -2811,
+                                "y": -4346
+                            }
+                        },
+                        {
+                            "puuid": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+                            "viewRadians": 2.5652103,
+                            "location": {
+                                "x": -1386,
+                                "y": -5873
+                            }
+                        },
+                        {
+                            "puuid": "ZWZzoJVQfkjCHbOLn365kzb6FNNnCfshoiwgo-lN3DU5pRM1wOPuEMjeQsf3SQONb1-LvxtVnGBleQ",
+                            "viewRadians": 2.6838915,
+                            "location": {
+                                "x": 2975,
+                                "y": -3157
+                            }
+                        },
+                        {
+                            "puuid": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                            "viewRadians": 1.9853842,
+                            "location": {
+                                "x": 2557,
+                                "y": -4951
+                            }
+                        },
+                        {
+                            "puuid": "8y8sI-uMwfGQol7AxxKd2NODLhtmVcuUTxxWMW5W0ypbY2MG1AtfZgm-JjkUWDiVLpUSiIqcFbrMhw",
+                            "viewRadians": 4.9658794,
+                            "location": {
+                                "x": 1563,
+                                "y": -2399
+                            }
+                        },
+                        {
+                            "puuid": "lYznxzi0uZfchn1V9w3eXVyY5epEv09xhtv2L70updmSkuDT9v3WA9_4C77kUa57JVTpymgOYK___A",
+                            "viewRadians": 2.7901843,
+                            "location": {
+                                "x": 3172,
+                                "y": -5503
+                            }
+                        },
+                        {
+                            "puuid": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                            "viewRadians": 3.194419,
+                            "location": {
+                                "x": 3130,
+                                "y": -2931
+                            }
+                        },
+                        {
+                            "puuid": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                            "viewRadians": 1.3741583,
+                            "location": {
+                                "x": 1785,
+                                "y": -4822
+                            }
+                        }
+                    ],
+                    "finishingDamage": {
+                        "damageType": "Weapon",
+                        "damageItem": "462080D1-4035-2937-7C09-27AA2A5C27A7",
+                        "isSecondaryFireMode": false
+                    }
+                },
+                {
+                    "gameTime": 154960,
+                    "roundTime": 20701,
+                    "killer": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                    "victim": "ZWZzoJVQfkjCHbOLn365kzb6FNNnCfshoiwgo-lN3DU5pRM1wOPuEMjeQsf3SQONb1-LvxtVnGBleQ",
+                    "victimLocation": {
+                        "x": 2066,
+                        "y": -2959
+                    },
+                    "assistants": [],
+                    "playerLocations": [
+                        {
+                            "puuid": "uiF1Yw-YdVdmdyP5fV5h0sWgcL52Pn2zlJPBKKOlUifjYCkNRUitbSBRKkDtsWAtV0CVxzBJZOzzxA",
+                            "viewRadians": 1.9879489,
+                            "location": {
+                                "x": 2720,
+                                "y": -5857
+                            }
+                        },
+                        {
+                            "puuid": "qsOp_xCRT88-K4BcSe86N4xCFBDLQZqtFqI8KymaFo08Fsd4gpZN9jsa3Ml4-LYnMkbrUYPp4xa2mA",
+                            "viewRadians": 0.4018105,
+                            "location": {
+                                "x": -2659,
+                                "y": -3898
+                            }
+                        },
+                        {
+                            "puuid": "jZ25ygzS-b-M7IzOWDk05IbC70gZgWt80yEa7BjZAmItq5xPV94y9Z4RzpIOC-Gs9cGSbPZoDuCDJQ",
+                            "viewRadians": 2.5412302,
+                            "location": {
+                                "x": -1429,
+                                "y": -5997
+                            }
+                        },
+                        {
+                            "puuid": "kPJxRfbwF30yKgmvKR9fheC9aSxi8WhwMCqII1aienbYmzwoCqt-cweR3rOkLCgprMeyK_tCKfpUxQ",
+                            "viewRadians": 2.1384652,
+                            "location": {
+                                "x": 2525,
+                                "y": -4639
+                            }
+                        },
+                        {
+                            "puuid": "8y8sI-uMwfGQol7AxxKd2NODLhtmVcuUTxxWMW5W0ypbY2MG1AtfZgm-JjkUWDiVLpUSiIqcFbrMhw",
+                            "viewRadians": 5.4164557,
+                            "location": {
+                                "x": 1026,
+                                "y": -2564
+                            }
+                        },
+                        {
+                            "puuid": "lYznxzi0uZfchn1V9w3eXVyY5epEv09xhtv2L70updmSkuDT9v3WA9_4C77kUa57JVTpymgOYK___A",
+                            "viewRadians": 1.7410169,
+                            "location": {
+                                "x": 2158,
+                                "y": -5067
+                            }
+                        },
+                        {
+                            "puuid": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                            "viewRadians": 4.42956,
+                            "location": {
+                                "x": 2131,
+                                "y": -2705
+                            }
+                        },
+                        {
+                            "puuid": "jIIHlfxAC0X1BG9h0GXdrwWbhj27enPrf3z05N5E8eqKjfx8aWvvP9UKoNAY8Tq0_5P3gUQqVZireA",
+                            "viewRadians": 1.2764623,
+                            "location": {
+                                "x": 1532,
+                                "y": -4802
+                            }
+                        }
+                    ],
+                    "finishingDamage": {
+                        "damageType": "Weapon",
+                        "damageItem": "462080D1-4035-2937-7C09-27AA2A5C27A7",
+                        "isSecondaryFireMode": false
+                    }
+                }
+            ],
+            "damage": [
+                {
+                    "receiver": "KLFOItXyIr_jTtb7tm9zYfeD3zWroqfiffvjC3y8p3VsGucGlDLiqZQcdPOJYtDajXQXp7PUON49BA",
+                    "damage": 125,
+                    "legshots": 2,
+                    "bodyshots": 1,
+                    "headshots": 1
+                },
+                {
+                    "receiver": "ZWZzoJVQfkjCHbOLn365kzb6FNNnCfshoiwgo-lN3DU5pRM1wOPuEMjeQsf3SQONb1-LvxtVnGBleQ",
+                    "damage": 100,
+                    "legshots": 1,
+                    "bodyshots": 3,
+                    "headshots": 0
+                },
+                {
+                    "receiver": "klMaK9W6xRe9rfgaEw1NsgFoadB9gHuzuTRQ5uMMmboOQWOp1PDt9oTWNoU-Jzh0cCOVswUehR15jw",
+                    "damage": 61,
+                    "legshots": 3,
+                    "bodyshots": 1,
+                    "headshots": 0
+                }
+            ],
+            "score": 599,
+            "economy": {
+                "loadoutValue": 3400,
+                "weapon": "462080D1-4035-2937-7C09-27AA2A5C27A7",
+                "armor": "822BCAB2-40A2-324E-C137-E09195AD7692",
+                "remaining": 500,
+                "spent": 2800
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        },
+        {
+            "puuid": "KLFOItXyIr_jTtb7tm9zYfeD3zWroqfiffvjC3y8p3VsGucGlDLiqZQcdPOJYtDajXQXp7PUON49BA",
+            "kills": [],
+            "damage": [],
+            "score": 0,
+            "economy": {
+                "loadoutValue": 2600,
+                "weapon": "F7E1B454-4AD4-1063-EC0A-159E56B58941",
+                "armor": "822BCAB2-40A2-324E-C137-E09195AD7692",
+                "remaining": 200,
+                "spent": 2400
+            },
+            "ability": {
+                "grenadeEffects": null,
+                "ability1Effects": null,
+                "ability2Effects": null,
+                "ultimateEffects": null
+            }
+        }
+    ],
+    "roundResultCode": "Elimination"
+}
