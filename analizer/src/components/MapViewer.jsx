@@ -46,6 +46,39 @@ export default function MapViewer({ mapName }) {
   const scaleX = displaySize.width / naturalSize.width;
   const scaleY = displaySize.height / naturalSize.height;
 
+  // Coordenadas del juego a coordenadas en imagen (centro + invertir Y)
+  const mapToPixels = (x, y) => {
+    const centerX = naturalSize.width / 2;
+    const centerY = naturalSize.height / 2;
+
+    const px = (x + centerX) * scaleX;
+    const py = (centerY - y) * scaleY;
+
+    return { px, py };
+  };
+
+    {/* Punto fijo en (0, 0) */}
+  {(() => {
+    const { px, py } = mapToPixels(0, 0);
+    return (
+      <div
+        style={{
+          position: 'absolute',
+          left: `${px - 5}px`,
+          top: `${py - 5}px`,
+          width: '10px',
+          height: '10px',
+          backgroundColor: 'lime',
+          border: '2px solid black',
+          borderRadius: '50%',
+          zIndex: 100,
+        }}
+        title="Origen (0, 0)"
+      />
+    );
+  })()}
+
+
   const handlePrev = () => {
     setTick((prev) => Math.max(prev - 1, 0));
   };
@@ -55,7 +88,8 @@ export default function MapViewer({ mapName }) {
   };
 
   return (
-    <div className="map-wrapper relative">
+    <div className="map-wrapper relative w-full">
+      {/* Imagen del mapa */}
       {imgSrc && (
         <img
           ref={imageRef}
@@ -64,57 +98,83 @@ export default function MapViewer({ mapName }) {
           className="map-image z-0"
         />
       )}
-
+  
+      
+      {/* Punto (0, 0) */}
+      {imgSrc && (() => {
+        const { px, py } = mapToPixels(0, 0);
+        return (
+          <div
+            style={{
+              position: 'absolute',
+              left: `${px - 5}px`,
+              top: `${py - 5}px`,
+              width: '10px',
+              height: '10px',
+              backgroundColor: 'lime',
+              border: '2px solid black',
+              borderRadius: '50%',
+              zIndex: 100,
+            }}
+            title="Origen (0, 0)"
+          />
+        );
+      })()}
+      
       {/* Jugadores */}
       {players.map((player) => {
-        const x = player.location?.x || 0;
-        const y = player.location?.y || 0;
+        const { x, y } = player.location || { x: 0, y: 0 };
         const radians = player.viewRadians ?? 0;
+        const { px, py } = mapToPixels(x, y);
+  
         return (
           <div
             key={player.puuid}
             style={{
               position: 'absolute',
-              left: `${x * scaleX}px`,
-              top: `${y * scaleY}px`,
+              left: `${px - 7}px`,
+              top: `${py - 7}px`,
               width: '14px',
               height: '14px',
               backgroundColor: 'orange',
               borderRadius: '50%',
               border: '2px solid white',
               transform: `rotate(${radians}rad)`,
+              transformOrigin: 'center',
               zIndex: 50,
             }}
             title={player.puuid}
           />
         );
       })}
-
+  
       {/* Evento */}
       {currentTick.event && (
         <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-yellow-200 text-black px-4 py-1 rounded z-50 shadow">
           <strong>Evento:</strong> {currentTick.event.type.toUpperCase()}
         </div>
       )}
-
-      {/* Controles */}
-      <div className="absolute bottom-4 left-4 bg-black/70 text-white px-4 py-2 rounded z-50 flex gap-4 items-center">
-        <button
-          onClick={handlePrev}
-          className="bg-gray-700 px-3 py-1 rounded hover:bg-gray-600"
-        >
-          ⬅
-        </button>
-        <span>
-          Tick {tick + 1} / {instants.length} | Tiempo: {currentTick.roundTime}s
-        </span>
-        <button
-          onClick={handleNext}
-          className="bg-gray-700 px-3 py-1 rounded hover:bg-gray-600"
-        >
-          ➡
-        </button>
+  
+      {/* Controles debajo del mapa */}
+      <div className="flex justify-center mt-4">
+        <div className="bg-black/70 text-white px-4 py-2 rounded z-50 flex gap-4 items-center">
+          <button
+            onClick={handlePrev}
+            className="bg-gray-700 px-3 py-1 rounded hover:bg-gray-600"
+          >
+            ⬅
+          </button>
+          <span>
+            Tick {tick + 1} / {instants.length} | Tiempo: {currentTick.roundTime}s
+          </span>
+          <button
+            onClick={handleNext}
+            className="bg-gray-700 px-3 py-1 rounded hover:bg-gray-600"
+          >
+            ➡
+          </button>
+        </div>
       </div>
     </div>
   );
-}
+}  
