@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   base: '/RoundAnalyzerVAL/',
   build: {
-    outDir: '../docs', 
-    emptyOutDir: true, 
-  }
+    outDir: '../docs',
+    emptyOutDir: true,
+  },
 })
+
