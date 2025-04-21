@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "RGAPI-7cf0ab17-4e99-4afa-989d-4bcfa7ab04fc"
+API_KEY = ""
 
 GAME_NAME = "MiguelGG ツ"
 TAG_LINE = "GANG"
